@@ -40,4 +40,8 @@
     <string name="takeback_camera_front_failed">Couldn\'t close front camera. Try again</string>
     <string name="popup_camera_front_failed">Couldn\'t open front camera. Try again</string>
 
+    <!-- Touch responsiveness -->
+    <string name="htsr_title">Touch Responsiveness</string>
+    <string name="htsr_summary">Increases touch polling rate to decrease latency</string>
+
 </resources>
