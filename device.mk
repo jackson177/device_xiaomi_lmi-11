@@ -28,6 +28,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     DeviceParts
 
+# Fingerprint
+TARGET_HAS_FOD := true
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.sensor.barometer.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.barometer.xml
