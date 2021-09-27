@@ -40,8 +40,4 @@
     <string name="takeback_camera_front_failed">No se pudo cerrar la cámara. Vuelve a intentarlo</string>
     <string name="popup_camera_front_failed">No se pudo abrir la cámara. Vuelve a intentarlo</string>
 
-    <!-- Touch responsiveness -->
-    <string name="htsr_title">Respuesta táctil</string>
-    <string name="htsr_summary">Aumenta la tasa de sondeo táctil para disminuir la latencia</string>
-
 </resources>

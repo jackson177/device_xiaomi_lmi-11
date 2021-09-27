@@ -65,25 +65,5 @@
                 android:value="-20" />
         </activity>
 
-        <!-- Touch responsiveness -->
-        <activity
-            android:name=".touchsampling.TouchSamplingSettingsActivity"
-            android:icon="@drawable/ic_settings_touch"
-            android:label="@string/htsr_title"
-            android:theme="@style/Theme.Main" >
-            <intent-filter>
-                <action android:name="com.android.settings.action.IA_SETTINGS" />
-            </intent-filter>
-            <meta-data
-                android:name="com.android.settings.category"
-                android:value="com.android.settings.category.ia.system" />
-            <meta-data
-                android:name="com.android.settings.summary"
-                android:resource="@string/htsr_summary" />
-            <meta-data
-                android:name="com.android.settings.order"
-                android:value="-15" />
-        </activity>
-
     </application>
 </manifest>
